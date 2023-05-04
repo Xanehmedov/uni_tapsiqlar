@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#bcgColorBlack {
+  background-color: #28293E;
+  width: 100vw;
+}
+#bcgColorBlack #navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+}
+#bcgColorBlack #navContainer #ulContainer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 515px;
+}
+#bcgColorBlack #navContainer #ulContainer ul li a {
+  color: white;
+}
+#bcgColorBlack #navContainer #contactContainer ul li a {
+  color: white;
+}
+
+#dreamProject {
+  background-color: palegreen;
+  width: 100vw;
+}
+#dreamProject .dreamProjetContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */

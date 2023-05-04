@@ -1,0 +1,36 @@
+
+#bcgColorBlack{
+   background-color:#28293E;
+   width: 100vw;
+   ;
+   #navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    
+  
+   #ulContainer{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 515px;
+       li{
+        a{
+            color: white;
+        }
+       }
+    }
+   }
+   #contactContainer{
+    ul{
+       li{
+        a{
+            color: white;
+        }
+       }
+    }
+   }
+}
+}
