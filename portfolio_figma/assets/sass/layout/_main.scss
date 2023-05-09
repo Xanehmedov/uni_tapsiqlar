@@ -1,0 +1,877 @@
+main {
+    width: 100%;
+    padding-top: 100px;
+
+    .modern_studio {
+        width: 100%;
+        display: flex;
+        padding: 0 60px 0 60px;
+
+
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+
+            #star {
+                position: absolute;
+                right: 260px;
+                top: 70px;
+                width: 120px;
+                z-index: -1;
+            }
+
+            .button {
+                display: flex;
+                gap: 40px;
+
+                button {
+                    background: #ef6d58;
+                    width: 100px;
+                    height: 34px;
+                    border: 0px;
+                    border-radius: 6px;
+                }
+            }
+
+            .meta {
+                div {
+                    display: flex;
+                    flex-direction: column;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+
+            img {
+                width: 600px;
+                height: 600px;
+            }
+        }
+    }
+
+    .logos {
+        padding: 60px 60px 0 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: #FDF0E9;
+
+        .bicmap {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 60px;
+
+            img {
+                width: 100px;
+                height: 40px;
+            }
+        }
+
+        .arrow {
+            height: 1px;
+            width: 100%;
+            background-color: #f3d1bf;
+        }
+    }
+
+    margin-bottom: 40px;
+
+    .about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        background: #FDF0E9;
+
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+
+            img {
+                width: 50%;
+                height: 90%;
+            }
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            #abt {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: #ef6d58;
+            }
+
+            h3 {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 64px;
+                color: #391400;
+                width: 70%;
+            }
+
+            h4 {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 32px;
+                color: #391400;
+            }
+
+            p {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 26px;
+                color: rgba(57, 20, 0, 0.64);
+                width: 70%;
+            }
+
+            button {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: uppercase;
+                background: #ffffff;
+
+                width: 100px;
+                height: 34px;
+                border: 0px;
+                border-radius: 6px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+    }
+
+    .experience {
+        background: #FDF0E9;
+
+        width: 100%;
+        padding: 100px;
+
+        .bottom {
+            padding-top: 120px;
+            width: 100%;
+            display: flex;
+
+            .left {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                #how {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 32px;
+                    /* identical to box height, or 200% */
+
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+
+                    /* Text_Dark_Accent */
+
+                    color: #ef6d58;
+                }
+
+                h6 {
+                    width: 80%;
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 35px;
+                    line-height: 48px;
+                    /* or 120% */
+
+                    /* Text_Dark */
+
+                    color: #391400;
+                }
+
+                p {
+                    width: 80%;
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 25px;
+                    /* or 200% */
+
+                    /* Text_Dark_Gray */
+
+                    color: rgba(57, 20, 0, 0.64);
+                }
+
+                #read {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 32px;
+                    /* identical to box height, or 200% */
+
+                    /* Text_Dark */
+
+                    color: #391400;
+                }
+            }
+
+            .right {
+                width: 50%;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        gap: 60px;
+
+
+                        #first {
+                            font-family: "Epilogue";
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 62px;
+                            line-height: 80px;
+                            /* identical to box height, or 111% */
+
+                            letter-spacing: -2px;
+
+                            color: #391400;
+                        }
+
+                        #second {
+                            font-family: "Epilogue";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 19px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+
+                            /* Text_Dark */
+
+                            color: #391400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            #start {
+                border-radius: 6px 0 0 6px;
+                border-right: 0px;
+            }
+
+            #end {
+                border-radius: 0 6px 6px 0;
+                border-left: 0px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                width: 34%;
+                border: 1px solid #f3d1bf;
+
+                padding: 45px 0 35px 40px;
+
+                h5 {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 35px;
+                    line-height: 48px;
+                }
+
+                p {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+
+    .edits {
+        background: #FDF0E9;
+
+        width: 100%;
+
+        .video {
+            position: relative;
+            width: 100%;
+            padding: 60px 100px;
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                width: 45%;
+                display: flex;
+                align-items: center;
+
+                div {
+                    width: 80%;
+                    position: relative;
+
+                    #scene {
+                        width: 100%;
+
+                    }
+
+                    #play {
+                        left: 35%;
+                        top: 30%;
+                        width: 27%;
+                        position: absolute;
+                    }
+
+                    #timer {
+                        width: 7%;
+                        bottom: 20px;
+                        left: 20px;
+                        position: absolute;
+                    }
+                }
+            }
+
+            .right {
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                justify-content: center;
+
+                h5 {
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 28px;
+                    /* identical to box height, or 200% */
+
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+
+                    /* Text_Dark_Accent */
+
+                    color: #EF6D58;
+
+                }
+
+                h3 {
+                    width: 80%;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 37px;
+                    line-height: 45px;
+                    /* or 120% */
+
+
+                    /* Text_Dark */
+
+                    color: #391400;
+
+                }
+
+                p {
+                    width: 80%;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+
+                    line-height: 28px;
+                    /* or 200% */
+
+
+                    /* Text_Dark_Gray */
+
+                    color: rgba(57, 20, 0, 0.64);
+                }
+            }
+        }
+
+        .features {
+            padding: 100px 60px;
+            background: #FDF0E9;
+
+            .top {
+                display: flex;
+
+                .left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    justify-content: center;
+
+                    h5 {
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 32px;
+                        /* identical to box height, or 200% */
+
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+
+                        /* Text_Dark_Accent */
+
+                        color: #EF6D58;
+
+                    }
+
+                    h3 {
+                        width: 70%;
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 56px;
+                        line-height: 64px;
+                        /* or 114% */
+
+                        letter-spacing: -1px;
+
+                        /* Text_Dark */
+
+                        color: #391400;
+                    }
+
+                    p {
+                        width: 80%;
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 32px;
+                        /* or 160% */
+
+
+                        /* Text_Dark */
+
+                        color: #391400;
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        li {
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+
+                            img {
+                                width: 5%;
+                                height: 95%;
+                            }
+
+                            p {
+                                font-family: 'Epilogue';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 32px;
+                                /* identical to box height, or 200% */
+
+
+                                /* Text_Dark_Gray */
+
+                                color: rgba(57, 20, 0, 0.64);
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 50%;
+                    display: flex;
+
+                    position: relative;
+
+                    img {
+
+                        width: 80%;
+
+
+                    }
+                }
+            }
+
+            .bottom {
+                padding-top: 200px;
+                display: flex;
+
+                .left {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    h5 {
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 32px;
+                        /* identical to box height, or 200% */
+
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+
+                        /* Text_Dark_Accent */
+
+                        color: #EF6D58;
+
+                    }
+
+                    p {
+                        width: 60%;
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 32px;
+                        /* or 160% */
+
+
+                        /* Text_Dark */
+
+                        color: #391400;
+
+                    }
+
+                    #read {
+                        font-family: 'Epilogue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 32px;
+                        /* identical to box height, or 200% */
+
+
+                        /* Text_Dark */
+
+                        color: #391400;
+
+                    }
+                }
+
+                .right {
+                    width: 50%;
+                    display: flex;
+                    position: relative;
+                   
+                    .prof {
+                        background-color: #ffffff;
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        padding: 30px;
+                        border-radius: 6px 6px 0px 6px;
+
+
+                        .oval {
+                            width: 30%;
+                            position: relative;
+                            margin-bottom: 20px;
+
+                            #oval {
+                                width: 100%;
+                            }
+
+                            #shape {
+                                position: absolute;
+                                left: 28%;
+                                width: 45%;
+                                top: 23%;
+                            }
+                        }
+
+                        h4 {
+                            font-family: 'Epilogue';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+
+
+                            /* Text_Dark */
+
+                            color: #391400;
+
+                        }
+
+                        p {
+                            font-family: 'Epilogue';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 32px;
+                            /* or 200% */
+
+
+                            /* Text_Dark_Gray */
+
+                            color: rgba(57, 20, 0, 0.64);
+
+                        }
+                    }
+
+                    .access {
+                        width: 40%;
+                        height: 80%;
+                        padding: 80px 20px 10px 30px;
+                        position: relative;
+                        top: 20%;
+                        border: 1px solid #F3D1BF;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        border-radius: 0px 6px 6px 0px;
+                        h4 {
+                            font-family: 'Epilogue';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+
+
+                            /* Text_Dark */
+
+                            color: #391400;
+                        }
+
+                        p {
+                            font-family: 'Epilogue';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 32px;
+                            /* or 200% */
+
+
+                            /* Text_Dark_Gray */
+
+                            color: rgba(57, 20, 0, 0.64);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        padding-top: 60px;
+
+        .modern_studio {
+            flex-direction: column-reverse;
+            padding: 0 20px 0 20px;
+
+            .right {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .left {
+                width: 100%;
+
+                h1 {
+                    width: 95%;
+                    font-size: 60px;
+                }
+
+                p {
+                    width: 80%;
+                    font-size: 14px;
+                }
+
+                .button {
+                    width: 100%;
+                    gap: 30px;
+                    padding-left: 40px;
+
+                    button {
+                        width: 150px;
+                        height: 40px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .logos {
+            padding-top: 40px;
+
+            .bicmap {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+
+                img {
+                    width: 120px;
+                }
+            }
+        }
+
+        .about {
+            padding: 60px 20px;
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+            }
+
+            .right {
+                width: 100%;
+
+                h3 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 85%;
+                }
+            }
+        }
+
+        .experience {
+            padding: 60px 20px;
+
+            .top {
+                flex-direction: column;
+
+                div {
+                    width: 80%;
+                }
+
+                #start {
+                    border-right: 1px solid #f3d1bf;
+                    border-bottom: 0px;
+                    border-radius: 6px 6px 0 0;
+                }
+
+                #end {
+                    border-top: 0;
+                    border-left: 1px solid #f3d1bf;
+                    border-radius: 0 0 6px 6px;
+                }
+            }
+
+            .bottom {
+                flex-direction: column;
+                gap: 80px;
+
+                .left {
+                    width: 100%;
+
+                }
+
+                .right {
+                    width: 100%;
+
+                    ul {
+                        li {
+
+                            #first {}
+
+                            #second {
+
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .edits {
+            display: flex;
+            flex-direction: column;
+
+            .video {
+                padding: 60px 10px;
+                flex-direction: column;
+                gap: 20px;
+
+                .left {
+                    width: 100%;
+                }
+
+                .right {
+                    width: 100%;
+                    gap: 10px;
+                }
+            }
+            .features{
+                .top{
+                    
+                }
+            }
+        }
+    }
+}
