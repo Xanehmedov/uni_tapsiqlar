@@ -1,8 +1,8 @@
-#simpleSection{
+#simpleSection {
     width: 100vw;
     background-color: black;
 
-     #simpleSectionContainer{
+    #simpleSectionContainer {
         max-width: 90vw;
         margin: auto;
         display: flex;
@@ -26,14 +26,15 @@
             #cleanDesignContainer {
                 height: 160px;
                 width: 459px;
-            
-                
+
+
                 border-radius: nullpx;
-                 @media only screen and (max-width: 440px) {
-                    width: 362px ;
-                
-                    
-                 }
+
+                @media only screen and (max-width: 440px) {
+                    width: 362px;
+
+
+                }
 
 
                 .cleanDesign {
@@ -44,11 +45,10 @@
                     line-height: 80px;
                     letter-spacing: -2px;
                     text-align: left;
+
                     @media only screen and (max-width: 440px) {
                         font-size: 56px
-                    
-                        
-                     }
+                    }
                 }
             }
 
@@ -58,8 +58,9 @@
                 left: 135px;
                 top: 508px;
                 border-radius: nullpx;
+
                 @media only screen and (max-width: 440px) {
-                    width: 329px ;
+                    width: 329px;
                 }
 
 
@@ -105,8 +106,123 @@
 
     }
 }
+
+#helpSetion {
+    padding-top: 100px;
+    width: 100vw;
+    background-color: #F3D1BF;
+
+    .helpSectionContainer {
+        width: 90vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .serviceContainer {
+            margin-bottom:
+                30px;
+
+            .services {
+                color: #EF6D58;
+
+            }
+        }
+
+        .canHelpContainer {
+            height: 128px;
+            width: 425px;
+            left: 507.5px;
+            top: 1024px;
+            border-radius: nullpx;
+
+            @media only screen and (max-width:768px) {
+                height: 96px;
+                width: 314px;
+              
+                border-radius: nullpx;
+
+            }
+
+
+
+
+
+
+            .canHelp {
+                //styleName: H2;
+                font-family: Epilogue;
+                font-size: 56px;
+                font-weight: 800;
+                line-height: 64px;
+                letter-spacing: -1px;
+                text-align: center;
+
+                @media only screen and (max-width: 768px) {
+                    //styleName: H3;
+                    font-family: Epilogue;
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 48px;
+                    letter-spacing: 0px;
+                    text-align: center;
+
+
+
+                }
+
+            }
+        }
+    }
+
+    .designDevolopmentCart {
+
+        .desingnCardContainer {
+            .displayVermek {
+                display: flex;
+
+                @media only screen and (max-width: 768px) {
+                    flex-direction: column;
+
+                }
+
+                .umumi {
+                    display: flex;
+                    align-items: center;
+                    width: 45vw;
+                    border: 1px solid red;
+
+
+                    width: 90vh;
+
+                    .designImgs {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        padding: 20px;
+
+
+
+
+                        .absouleteOlan {
+                            position: absolute;
+                            font-size: 16px;
+                            left: 35%;
+                            top: 35%;
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
 // simple section responsivliyin baslangici
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
     #simpleSection {
         #simpleSectionContainer {
             display: flex;
@@ -131,4 +247,5 @@
     }
 
 }
+
 //simple section responsivliyin sonu
