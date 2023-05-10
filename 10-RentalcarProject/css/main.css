@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.max_width {
+  max-width: 1140px;
+  width: 90vw;
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 765px) {
+  .max_width {
+    align-items: start;
+    padding-top: 20px;
+  }
+}
+.max_width .Morent_hissesi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .max_width .Morent_hissesi {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+.max_width .Morent_hissesi .metin {
+  width: 148px;
+  height: 44px;
+  margin-right: 64px;
+}
+.max_width .Morent_hissesi .metin h1 {
+  font-size: 32px;
+  color: #3563E9;
+}
+.max_width .Morent_hissesi .relativ_etmek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.max_width .Morent_hissesi .relativ_etmek .icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 5px;
+  width: 19px;
+  height: 19px;
+}
+.max_width .Morent_hissesi .relativ_etmek .icon2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .max_width .Morent_hissesi .relativ_etmek .icon2 {
+    display: none;
+  }
+}
+.max_width .Morent_hissesi .relativ_etmek .axtaris input {
+  width: 492px;
+  height: 44px;
+  border-radius: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .max_width .Morent_hissesi .relativ_etmek .axtaris input {
+    width: 263px;
+    height: 48px;
+  }
+}
+.max_width .balaca_sekil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.max_width .balaca_sekil .icon2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: 5px;
+}
+.max_width .balaca_sekil .ring {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.max_width .balaca_sekil .ring div {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+.max_width .balaca_sekil .ring div .bi-bell-fill {
+  font-size: 24px;
+}
+.max_width .balaca_sekil .ring .noqte {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 11px;
+  height: 11px;
+}
+.max_width .balaca_sekil .ring .noqte .bi-dot {
+  color: red;
+  font-size: 30px;
+}
+.max_width .balaca_sekil .img {
+  width: 44px;
+  height: 44px;
+}/*# sourceMappingURL=main.css.map */

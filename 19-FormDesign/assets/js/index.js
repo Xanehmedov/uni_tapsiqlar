@@ -1,10 +1,11 @@
 const account=document.getElementById("create-account-bg");
 const Name=document.getElementById("Full-name");
-const Email=document.getElementById("Email")
+const Email=document.getElementById("Email");
+console.log(Email)
 
 //2 citapsiriq evveli fdeyisen
-const number=document.getElementById("number");
-const Repaetnumber=document.querySelector("#number2");
+// const number=document.getElementById("number");
+// const Repaetnumber=document.querySelector("#number2");
 // console.log('num', number);
 // console.log('Rnum', Repaetnumber);
 //2 citapsiriq sonu
@@ -28,14 +29,14 @@ const Repaetnumber=document.querySelector("#number2");
 // })
 //2 citapsiriq evveli son
 // 3) yuxaridakilari object kimi console cixartmaq
-let arr=[];
-account.addEventListener("click",function (e) {
-    let object={
-        surname: "",
-        email: "",
-    }
-    object.surname=Name.value
-    object.email=Email.vaule
-    console.log(arr);
-    e.preventDefault();
-})
+// let arr=[];
+// account.addEventListener("click",function (e) {
+//     let object={
+//         surname: "",
+//         email: "",
+//     }
+//     object.surname=Name.value
+//     object.email=Email.vaule
+//     console.log(arr);
+//     e.preventDefault();
+// })

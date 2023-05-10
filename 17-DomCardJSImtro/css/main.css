@@ -1,0 +1,142 @@
+.birinci {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.birinci .container {
+  width: 20vw;
+  height: 90vh;
+}
+.birinci .container .keyta_container {
+  width: 25vw;
+  height: 45vh;
+  background-color: gold;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 15px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  box-sizing: border-box;
+}
+.birinci .container .keyta_container .position {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.birinci .container .keyta_container .position .nike {
+  width: 50%;
+  height: 40px;
+}
+.birinci .container .keyta_container .position .nike .sekil {
+  width: 70px;
+  height: 40px;
+}
+.birinci .container .keyta_container .position .ayaqqabi {
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+  z-index: 10;
+}
+.birinci .container .keyta_container .position .ayaqqabi .ayaqqabi_sekil {
+  width: 150px;
+  height: 100%;
+  display: block;
+  position: relative;
+  left: 70px;
+  bottom: 20px;
+}
+.birinci .container .keyta_container .metin_basliq {
+  color: white;
+  margin-right: 20px;
+}
+.birinci .container .keyta_container .lorem {
+  color: white;
+  margin-right: 20px;
+}
+.birinci .container .keyta_container .lorem p {
+  font-size: 12px;
+  padding-top: 2px;
+}
+.birinci .container .qiymet_container {
+  width: 25vw;
+  height: 45vh;
+  background-color: white;
+  padding-left: 10px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.birinci .container .qiymet_container .air .iconlar .rengsiz {
+  color: darkgray;
+}
+.birinci .container .qiymet_container .air .air_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.birinci .container .qiymet_container .air .air_container button {
+  color: white;
+  background-color: hsl(120, 92%, 49%);
+  border-radius: 15%;
+  border: none;
+}
+.birinci .container .qiymet_container .air .air_container h1 {
+  font-weight: 100;
+}
+.birinci .container .qiymet_container .size {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.birinci .container .qiymet_container .size .reqem {
+  display: flex;
+  gap: 20px;
+}
+.birinci .container .qiymet_container .size .reqem button {
+  border: none;
+  background-color: white;
+}
+.birinci .container .qiymet_container .color {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.birinci .container .qiymet_container .color .color_container {
+  display: flex;
+  gap: 10px;
+}
+.birinci .container .qiymet_container .color .color_container .reng {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+}
+.birinci .container .qiymet_container .color .color_container .mavi {
+  background-color: blueviolet;
+}
+.birinci .container .qiymet_container .color .color_container .qirmizi {
+  background-color: red;
+}
+.birinci .container .qiymet_container .color .color_container .pul {
+  width: max-content;
+  height: 25px;
+  color: white;
+  background-color: darkslateblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  left: 125px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,134 @@
+#simpleSection{
+    width: 100vw;
+    background-color: black;
+
+     #simpleSectionContainer{
+        max-width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        #simpleContainer {
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+
+            #gabrielContainer {
+                .gabriel {
+                    color: red;
+                }
+            }
+
+            #cleanDesignContainer {
+                height: 160px;
+                width: 459px;
+            
+                
+                border-radius: nullpx;
+                 @media only screen and (max-width: 440px) {
+                    width: 362px ;
+                
+                    
+                 }
+
+
+                .cleanDesign {
+                    color: white;
+                    font-family: Epilogue;
+                    font-size: 72px;
+                    font-weight: 800;
+                    line-height: 80px;
+                    letter-spacing: -2px;
+                    text-align: left;
+                    @media only screen and (max-width: 440px) {
+                        font-size: 56px
+                    
+                        
+                     }
+                }
+            }
+
+            #agancyProvidesContainer {
+                height: 66px;
+                width: 470px;
+                left: 135px;
+                top: 508px;
+                border-radius: nullpx;
+                @media only screen and (max-width: 440px) {
+                    width: 329px ;
+                }
+
+
+                .agancyProvides {
+                    color: white;
+                    //styleName: Text;
+                    font-family: Epilogue;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0px;
+                    text-align: left;
+
+                }
+            }
+
+
+            #seeMyWorkContainer {
+                height: 48px;
+                width: 154px;
+                border-radius: 6px;
+                background-color: #EF6D58;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+        #picImgContainer {
+
+            .picImg {
+                margin-bottom: 50px;
+                margin-top: 50px;
+                height: 555px;
+                width: 570px;
+
+
+
+            }
+        }
+
+    }
+}
+// simple section responsivliyin baslangici
+@media only screen and (max-width: 440px) {
+    #simpleSection {
+        #simpleSectionContainer {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: start;
+
+            #picImgContainer {
+                .picImg {
+
+                    height: 318px;
+                    width: 90vw;
+
+                }
+            }
+
+            #seeMyWorkContainer {
+                margin-bottom: 50px;
+            }
+
+
+        }
+    }
+
+}
+//simple section responsivliyin sonu
