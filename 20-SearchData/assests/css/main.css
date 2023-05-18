@@ -1,0 +1,188 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  opacity: 0.8;
+  border-radius: 20px;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px solid #656565;
+  font-family: "Sen", sans-serif;
+  font-weight: 600;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+body {
+  background-image: url(/assests/img/b_examhall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.card_text {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 35px;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Sigmar", cursive;
+  color: #656565;
+  letter-spacing: 1px;
+}
+
+.card_img {
+  background-image: url(/assests/img/tantuni.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.card_img .img_opacty {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 800px;
+  height: 100vh;
+  background: #e8519e;
+  background: -webkit-linear-gradient(bottom, #e8519e, #c77ff2);
+  background: -o-linear-gradient(bottom, #e8519e, #c77ff2);
+  background: -moz-linear-gradient(bottom, #e8519e, #c77ff2);
+  background: linear-gradient(bottom, #e8519e, #c77ff2);
+  opacity: 0.8;
+}
+
+.card_register {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 400px;
+  height: 100vh;
+  padding-top: 60px;
+  background-color: #ffffff;
+}
+
+form {
+  margin: 10px auto;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form label {
+  color: #6d6d6d;
+}
+form input, form select {
+  width: 360px;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #989494;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.6s;
+}
+form input:focus {
+  border-bottom: 2px solid #e8519e;
+  color: #e8519e;
+}
+form select:focus {
+  cursor: pointer;
+  border-bottom: 2px solid #e8519e;
+  color: #e8519e;
+}
+
+.inp_male input {
+  width: 15px;
+  margin-bottom: 20px;
+}
+
+input[type=radio] {
+  accent-color: #e8519e;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #e8519e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 360px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn2 {
+  margin-top: 6px;
+  border-radius: 15px;
+  background-color: #e8519e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn2 span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn2:hover span {
+  padding-right: 25px;
+}
+
+.btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}/*# sourceMappingURL=main.css.map */

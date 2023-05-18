@@ -1,0 +1,16 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "numune bir alqorant javascript proyekti",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xanehmedov Polad",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^2.3.0",
+    "dotenv": "^16.0.3"
+  }
+}

@@ -3,6 +3,7 @@ nav {
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+  
 
     .navContainer {
         width: 90vw;
@@ -77,5 +78,15 @@ nav {
             }
 
         }
+    }
+}
+.resMaxwhite{
+    width: 100vw;
+    .ulContainerResponse{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: auto;
+        background-color: aqua;
     }
 }
