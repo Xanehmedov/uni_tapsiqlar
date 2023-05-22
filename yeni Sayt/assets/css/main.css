@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav .bgrRed {
+  width: 100vw;
+  background-color: red;
+  height: 25px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .bgrRed #iconlar {
+  display: flex;
+  gap: 5px;
+}
+header nav .bgrRed #iconlar .bi {
+  font-size: 10px;
+}
+header nav .bgrRed #iconlar .bi:hover {
+  color: white;
+  transition: 0.5s;
+}
+header nav .bgrRed #sponsor-login-wrapper {
+  display: flex;
+  gap: 10px;
+}
+header nav .bgrRed #sponsor-login-wrapper p {
+  font-size: small;
+}
+header nav .bgrRed #sponsor-login-wrapper #login {
+  background-color: darkgoldenrod;
+}
+header nav .bgrRed #sponsor-login-wrapper p:hover {
+  color: aliceblue;
+}
+header nav .bgr-ag {
+  background-color: white;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+header nav .bgr-ag .menyu {
+  border: 1px solid black;
+  display: none;
+}
+header nav .bgr-ag h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+header nav .bgr-ag ul {
+  display: flex;
+  gap: 5px;
+}
+header nav .bgr-ag ul li {
+  font-size: 10px;
+}
+header nav .bgr-ag ul #red {
+  color: red;
+}
+header nav .bgr-ag ul #positon {
+  position: relative;
+}
+header nav .bgr-ag ul #positon .none_ul {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: aqua;
+  margin-top: 8px;
+  padding: 2px;
+  border-radius: 5px;
+}
+header nav .bgr-ag ul #positon:hover .none_ul {
+  display: block !important;
+  justify-content: space-around;
+}
+header nav .bgr-ag ul #positon:hover li:hover {
+  background-color: brown;
+}
+
+@media only screen and (max-width: 700px) {
+  header nav .bgr-ag .menyu {
+    display: block;
+  }
+  header nav .bgr-ag ul {
+    display: none;
+  }
+}
+.foto-slide {
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
