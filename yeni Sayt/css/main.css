@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav .bgrRed {
+  width: 100vw;
+  background-color: red;
+  height: 50px;
+  display: flex;
+  padding: 20px 30px 20px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .bgrRed #iconlar {
+  display: flex;
+  gap: 10px;
+}
+header nav .bgrRed #iconlar .bi {
+  font-size: 16px;
+}
+header nav .bgrRed #iconlar .bi:hover {
+  color: white;
+  transition: 0.5s;
+}
+header nav .bgrRed #sponsor-login-wrapper {
+  display: flex;
+  gap: 10px;
+}
+header nav .bgrRed #sponsor-login-wrapper p {
+  font-size: larger;
+}
+header nav .bgrRed #sponsor-login-wrapper #login {
+  background-color: darkgoldenrod;
+}
+header nav .bgrRed #sponsor-login-wrapper p:hover {
+  color: aliceblue;
+}
+header nav .bgr-ag {
+  background-color: white;
+  display: flex;
+  padding: 20px 30px 20px 30px;
+  justify-content: space-between;
+}
+header nav .bgr-ag .menyu {
+  border: 1px solid black;
+  display: none;
+}
+header nav .bgr-ag h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+header nav .bgr-ag ul {
+  display: flex;
+  gap: 10px;
+}
+header nav .bgr-ag ul li {
+  font-size: 16px;
+}
+header nav .bgr-ag ul #red {
+  color: red;
+}
+header nav .bgr-ag ul #positon {
+  position: relative;
+}
+header nav .bgr-ag ul #positon .none_ul {
+  width: max-content;
+  height: 150px;
+  display: none;
+  position: absolute;
+  background-color: lavender;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.5ms;
+}
+header nav .bgr-ag ul #positon:hover .none_ul {
+  display: block !important;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+header nav .bgr-ag ul #positon:hover li:hover {
+  background-color: brown;
+}
+
+@media only screen and (max-width: 700px) {
+  header nav .bgr-ag .menyu {
+    display: block;
+  }
+  header nav .bgr-ag ul {
+    display: none;
+  }
+}
+.silade-info {
+  width: max-content;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  top: 50px;
+  left: 50px;
+  justify-content: start;
+}
+.silade-info p {
+  width: 35%;
+  font-size: 20px;
+}
+.silade-info .slide-btn {
+  height: 50px;
+  width: max-content;
+  padding: 10px;
+  background-color: brown;
+  border-radius: 5px;
+}
+
+main .slider-section {
+  width: 100vw;
+}
+main #family-section {
+  pad: 50px;
+  height: 100vh;
+}
+main #family-section #main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  padding-top: 20px;
+}
+main #family-section #main-container .family-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45vw;
+  height: 80vh;
+  gap: 20px;
+}
+main #family-section #main-container .family-wrapper button {
+  width: 200px;
+  height: 40px;
+  will-change: 100px;
+  border: 1px solid red;
+  color: red;
+}
+main #family-section #main-container .family-wrapper #family-img {
+  width: 40vw;
+  height: 300px;
+  background-color: antiquewhite;
+}
+main #family-section #main-container #steps-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45vw;
+  height: 80vh;
+  gap: 20px;
+}
+main #family-section #main-container #steps-wrapper .nomer-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main #family-section #main-container #steps-wrapper .nomer-main-wrapper .nomer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 10px;
+}/*# sourceMappingURL=main.css.map */

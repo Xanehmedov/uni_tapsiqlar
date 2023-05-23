@@ -1,21 +1,21 @@
 header{
 
     nav{
+    
         .bgrRed{
             width: 100vw;
             background-color: red;
-            height: 25px;
+            height: 50px;
             display: flex;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding: 20px 30px 20px 30px;
             align-items: center;
             justify-content: space-between;
 
             #iconlar{
                 display: flex;
-                gap: 5px;
+                gap: 10px;
                 .bi{
-                    font-size: 10px;
+                    font-size: 16px;
                 }
                 .bi:hover{
                     color: white;
@@ -29,8 +29,11 @@ header{
                
               
                 p{
-                    font-size: small;
+
+                    font-size: larger;
                 }
+                    
+                
                 #login{
                     background-color: darkgoldenrod;
                 }
@@ -42,21 +45,21 @@ header{
         .bgr-ag{
             background-color: white;
             display: flex;
-            padding: 10px 20px;
+            padding: 20px 30px 20px 30px;
             justify-content: space-between;
             .menyu{
                 border: 1px solid black;
                 display: none;
             }
             h1{
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 400;
             }
             ul{
                 display: flex;
-                gap: 5px;
+                gap: 10px;
                 li{
-                    font-size: 10px;
+                    font-size: 16px;
                     
                 }
                 #red{
@@ -64,26 +67,26 @@ header{
                 }
                 #positon{
                     position: relative;
-            
                     .none_ul{
-                        width: 100px;
-                        height: 50px;
-                        display: flex;
+                        width: max-content;
+                        height: 150px;
+                
                         display: none;
                        
-                        flex-direction: column;
                         position: absolute;
-                        background-color: aqua;
-                        margin-top: 8px;
+                        background-color: lavender;
+                        margin-top: 2px;
                         padding: 2px;
                         border-radius: 5px;
+                        transition: 0.5ms;
                     }
                     &:hover{
                         .none_ul{
                             
                             display: block !important;
-                          
-                           
+                            z-index: 10;
+                            display: flex;
+                            flex-direction: column;
                             justify-content: space-around;
 
                         }
@@ -114,8 +117,6 @@ header{
         }
     }
 }
-.foto-slide{
-    padding: 20px;
-}
+
 
     
