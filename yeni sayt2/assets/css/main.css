@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav {
+  width: 100vw;
+  background-color: bisque;
+}
+header nav #nav-main-container {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 50px;
+}
+header nav #nav-main-container #ul-wrapper #li-wrapper {
+  display: flex;
+  gap: 10px;
+}
+header nav #nav-main-container #ul-wrapper #li-wrapper .color-blue {
+  color: cornflowerblue;
+}
+header nav #nav-main-container #respons-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header nav #nav-main-container #ul-wrapper #li-wrapper {
+    display: none;
+  }
+  header nav #nav-main-container #respons-icon {
+    display: block;
+  }
+}
+main #special-container {
+  width: 100vw;
+  height: 120vh;
+  background: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg);
+}
+main #special-container .special-main-wrapper {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+main #special-container .special-main-wrapper #special #btn1 {
+  margin-top: 150px;
+  height: 60px;
+  background-color: brown;
+  color: white;
+  width: 250px;
+  font-size: 20px;
+  margin-left: 490px;
+  color: white;
+}
+main #special-container .special-main-wrapper #start #btn2 {
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+}
+main #special-container .special-main-wrapper #summo-tamaquam-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main #special-container .special-main-wrapper #summo-tamaquam-main .summo-tamaquam-wrapper {
+  display: flex;
+  gap: 15px;
+}
+main #special-container .special-main-wrapper #summo-tamaquam-main .summo-tamaquam-wrapper h5 {
+  font-size: 15px;
+  color: white;
+}
+main #special-container .special-main-wrapper p {
+  font-size: 20px;
+  width: 60%;
+  color: white;
+}
+main #special-container .special-main-wrapper h1 {
+  color: white;
+}
+main #special-container .special-main-wrapper h3 {
+  color: white;
+}
+main #special-container .special-main-wrapper #img {
+  position: absolute;
+  right: 0px;
+  top: 20%;
+}
+main #special-container .special-main-wrapper #img img {
+  width: 400px;
+}
+main #our-servis-container {
+  width: 100vw;
+  height: 40vh;
+  background-color: aquamarine;
+}
+main #our-servis-container #our-servis-wrapper {
+  width: 90vw;
+  background-color: rebeccapurple;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+main #our-servis-container #our-servis-wrapper div {
+  border: 1px solid black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main #our-servis-container #our-servis-wrapper div h1 {
+  font-size: 35px;
+}
+main #our-servis-container #our-servis-wrapper div h1 span {
+  border-bottom-left-radius: 2px solid black;
+}
+main #our-servis-container #our-servis-wrapper div p {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  main main #special-container {
+    width: 100vw;
+    height: max-content;
+    padding: 50px;
+    background: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg);
+  }
+  main main #special-container .special-main-wrapper {
+    width: 90vw;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+  }
+  main main #special-container .special-main-wrapper #special #btn1 {
+    margin-top: 50px;
+    height: 60px;
+    background-color: brown;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    margin-left: 150px;
+    color: white;
+  }
+  main main #special-container .special-main-wrapper #start #btn2 {
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+  }
+  main main #special-container .special-main-wrapper #summo-tamaquam-main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  main main #special-container .special-main-wrapper #summo-tamaquam-main .summo-tamaquam-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+  main main #special-container .special-main-wrapper #summo-tamaquam-main .summo-tamaquam-wrapper h5 {
+    font-size: 15px;
+    color: white;
+  }
+  main main #special-container .special-main-wrapper p {
+    font-size: 20px;
+    width: 60%;
+    color: white;
+  }
+  main main #special-container .special-main-wrapper h1 {
+    color: white;
+  }
+  main main #special-container .special-main-wrapper h3 {
+    color: white;
+  }
+  main main #special-container .special-main-wrapper #img {
+    position: static;
+    right: 0px;
+    top: 20%;
+  }
+  main main #special-container .special-main-wrapper #img img {
+    width: 400px;
+  }
+}/*# sourceMappingURL=main.css.map */

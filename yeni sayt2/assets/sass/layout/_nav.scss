@@ -1,0 +1,47 @@
+header{
+    nav{
+        width: 100vw;
+        background-color: bisque;
+        
+     #nav-main-container{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        height: 50px;
+        #ul-wrapper{
+            #li-wrapper{
+                display: flex;
+                gap: 10px;
+                .color-blue{
+                    color: cornflowerblue;
+                }
+            }
+        }
+        #respons-icon{
+            display: none;
+        }
+     }
+    }
+}
+//nav response
+@media screen and (max-width: 768px) {
+    header{
+        nav{
+         
+         #nav-main-container{
+            
+            #ul-wrapper{
+                
+                #li-wrapper{
+                    display: none;
+                }
+            }
+            #respons-icon{
+                display: block;
+            }
+         }
+        }
+    }
+  }
